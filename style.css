@@ -95,9 +95,53 @@ body{
 }
 .main.text, .image.placeholder{
     margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:120px;
 }
 /*Cosmetic First Container*/
 
 /*End of First Container Code*/
 /*
+/*Second Container*/
+.container.two{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+/*Container holding 4 sub containers*/
+.two .main.box.container{
+    display:flex;
+    justify-content:center;
+    gap: 50px;
+    margin-bottom:100px;
+    margin-top:50px;
+}
+/*Container holding blue box and subtext*/
+.two .sub.box.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 160px;
+    padding:0;
+    margin:0;
+}
+/*Individual Blue Box*/
+.blue.box{
+    border-radius:12px;
+    border:4px #3882f6 solid;
+    height: 160px;
+    width:160px;
+}
+/*Text under blue box*/
+.two .subtext{
+    font-size:17px;
+    text-align:center;
+    color:rgb(86, 86, 87);
+    margin-top:10px;
+}
+/*Text Container at the top*/
+.two .header.container{
+    margin-top:50px;
+    font-size:36px;
+    font-weight:1000;
+    color:#1F2937;
+}
