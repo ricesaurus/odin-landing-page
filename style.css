@@ -9,7 +9,6 @@
 }
 
 body{
-    border:2px green solid;
     margin:0;
     padding:0;
     display:flex;
@@ -45,15 +44,15 @@ body{
     margin-left:24vh;
     margin-right:24vh;
     display:flex;
+    gap:10px;
 }
 .main.text{
     flex:auto;
-    width:40%;
+    width:38%;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
-
-
+    margin-right:40px;
 }
 .main.hero{
     font-size:48px;
@@ -79,18 +78,26 @@ body{
     border:none;
     width:130px;
     justify-content:center;
-    font-size:16px;
+    font-size:18px;
+    margin-top:12px;
 }
 .image.placeholder{
     display:flex;
     justify-content:center;
     align-items:center;
     flex:auto;
-    width:50%;
-    background-color:rgb(109, 120, 121);
+    height:228px;
+    width:45%;
+    background-color:rgb(109, 109, 122);
     color:#e5e7eb;
+    font-size:18px;
+    
+}
+.main.text, .image.placeholder{
+    margin-top:100px;
+    margin-bottom:100px;
 }
 /*Cosmetic First Container*/
 
 /*End of First Container Code*/
-
+/*
