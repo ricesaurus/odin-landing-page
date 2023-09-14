@@ -172,3 +172,63 @@ body{
     margin-left:840px;
     margin-bottom:150px;
 }
+/*Container Four*/
+.container.four{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    padding:100px;
+}
+/*Container holding container of text and button*/
+.four .main.blue.container{
+    margin-left:100px;
+    margin-right:30px;
+    background-color:#3882f6;
+    display:flex;
+    justify-content:baseline;
+    padding:40px;
+    border-radius:12px;
+    align-items:center;
+
+}
+/*Container holding sign up text*/
+.four .call.to.action.container{
+    padding:0;
+    margin-left:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+
+}
+/*Sign up button*/
+.signup.button{
+    color:#f9faf8;
+    font-weight:800;
+    font-size:16px;
+    height:40px;
+    border:2px #f9faf8 solid;
+    margin-right:100px;
+    border-radius:12px;
+    background-color:#3882f6;
+    width:130px;
+}
+/*Big text*/
+.action.container .text{
+    display:flex;
+    padding:0;
+    margin:0;
+    color:#f9faf8;
+}
+/*Small text*/
+.action.container .subtext{
+    margin-top:10px;
+    font-size:18px;
+    display:flex;
+    padding:0;
+    margin:0;
+    color:#f9faf8
+}
+
+
+
+
