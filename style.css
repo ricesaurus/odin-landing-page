@@ -1,0 +1,19 @@
+.container{
+    border:2px black solid;
+    flex:1;
+    margin:0;
+    padding:0;
+}
+.footer{
+    border:2px red solid;
+    height:10vh;
+    flex: 0 0 baseline;
+}
+
+body{
+    height:100vh;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
