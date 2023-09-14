@@ -1,7 +1,5 @@
 .container{
-    border:2px black solid;
     flex:auto;
-    margin:0;
     padding:0;
 }
 .footer{
@@ -11,28 +9,88 @@
 }
 
 body{
+    border:2px green solid;
     margin:0;
     padding:0;
     display:flex;
     flex-direction:column;
+    font-family: 'Roboto';
 }
+/*First Container Code*/
 .container.one{
+    background-color:#1F2937;
     display:flex;
     flex-direction:column;
 }
 .header.container{
+    margin-left:24vh;
+    margin-right:24vh;
     flex:auto;
     padding:0;
     display:flex;
     justify-content:space-between;
 }
+.header.logo{
+    color:#f9faf8;
+    font-size:24px;
+    font-weight:1200px;
+}
 .header.links{
     display:flex;
+    color: #e5e7eb;
+    font-size:18px;
+    gap:20px;
 }
 .content.container{
+    margin-left:24vh;
+    margin-right:24vh;
     display:flex;
 }
 .main.text{
+    flex:auto;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+
 
 }
+.main.hero{
+    font-size:48px;
+    font-weight: 1600 !important;;
+    color: #f9faf8;
+    margin:0;
+    padding:0;
+
+}
+.main.subtext{
+    margin-top:0;
+    font-size:18px;
+    color:#e5e7eb;
+
+}
+.container.one button{
+    display:flex;
+    padding:10px;
+    background-color:#3882f6;
+    color:#f9faf8;
+    font-weight:800;
+    border-radius:12px;
+    border:none;
+    width:130px;
+    justify-content:center;
+    font-size:16px;
+}
+.image.placeholder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:auto;
+    width:50%;
+    background-color:rgb(109, 120, 121);
+    color:#e5e7eb;
+}
+/*Cosmetic First Container*/
+
+/*End of First Container Code*/
 
