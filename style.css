@@ -2,11 +2,6 @@
     flex:auto;
     padding:0;
 }
-.footer{
-    border:2px red solid;
-    height:10vh;
-    flex: 0 0 baseline;
-}
 
 body{
     margin:0;
@@ -229,6 +224,17 @@ body{
     color:#f9faf8
 }
 
+/*Footer*/
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    height:10vh;
+    color:#f9faf8;
+    font-size:18px;
+    padding:10px;
+}
 
 
 
