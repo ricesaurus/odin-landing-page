@@ -145,3 +145,30 @@ body{
     font-weight:1000;
     color:#1F2937;
 }
+/*Container Three*/
+.container.three{
+    background-color:#e5e7eb;
+    display:flex;
+    flex-direction:column;
+    align-items:auto;
+}
+/*Quote of container 3 */
+.three .main.quote {
+    font-size:36px;
+    color:#1F2937;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:150px;
+    font-weight:lighter;
+    width: 820px;
+
+}
+/*Thor, God of Thunder*/
+.quote.author{
+    display:flex;
+    flex-grow:1;
+    font-size:24px;
+    font-weight:800;
+    margin-left:840px;
+    margin-bottom:150px;
+}
